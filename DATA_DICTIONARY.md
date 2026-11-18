@@ -1,6 +1,6 @@
 # Data dictionary
 
-## derived_data/cohort_reports_v2_flags.csv — primary-suspect cohort (4499 reports)
+## cohort_reports_v2_flags.csv — primary-suspect cohort (4499 reports)
 | Variable | Description |
 |---|---|
 | primaryid, caseid | FAERS/AEMS report and case identifiers (latest version after deduplication) |
@@ -29,14 +29,14 @@
 | switch | Adagrasib report that also lists sotorasib |
 | ivg | Interval group (original grouping; superseded) |
 
-## derived_data/cohort_any_role.csv — any-role cohort (Table 9)
+## cohort_any_role.csv — any-role cohort (Table 9)
 | Variable | Description |
 |---|---|
 | target_drug, drug_seq | KRAS G12C inhibitor in its highest-ranked role, and its sequence number |
 | rk, role | Role rank (0 PS, 1 SS, 2 I, 3 C) and role code |
 | other variables | As above |
 
-## derived_data/ici_interval_vs_event.csv — ICI co-reported reports
+## ici_interval_vs_event.csv — ICI co-reported reports
 Classification of ICI start/stop dates and KRAS G12C inhibitor start date relative to the event date (documented overlap, sequential use, ICI start only, ICI after event, stop without start, insufficient dates).
 
 ## Model covariates (all adjusted models)

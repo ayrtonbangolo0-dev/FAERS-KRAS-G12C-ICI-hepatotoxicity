@@ -1,0 +1,28 @@
+import matplotlib; matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+from matplotlib.patches import FancyBboxPatch
+from PIL import Image
+plt.rcParams.update({"font.family":"DejaVu Sans","font.size":10})
+fig,ax=plt.subplots(figsize=(10,11)); ax.set_xlim(0,10); ax.set_ylim(0,11); ax.axis("off")
+def box(x,y,w,h,t,fc="#FFFFFF",bold=False):
+    ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle="round,pad=0.02,rounding_size=0.08",fc=fc,ec="#404040",lw=1.1))
+    ax.text(x+w/2,y+h/2,t,ha="center",va="center",fontsize=10,fontweight="bold" if bold else "normal",wrap=True)
+def arrow(x1,y1,x2,y2): ax.annotate("",xy=(x2,y2),xytext=(x1,y1),arrowprops=dict(arrowstyle="-|>",color="#404040",lw=1.2))
+box(1.2,9.8,5.2,0.9,"22 FAERS/AEMS quarterly ASCII files\n2021 Q2 to 2026 Q3: 9375875 reports")
+box(1.2,8.3,5.2,0.9,"Latest version of each case kept\n8024130 reports")
+box(7.0,8.35,2.8,0.8,"Earlier versions of the\nsame case: 1351745",fc="#F2F2F2")
+box(1.2,6.8,5.2,0.9,"Deleted cases removed\n7979372 deduplicated reports\n(background for disproportionality)")
+box(7.0,6.85,2.8,0.8,"Cases in deleted-case\nfiles: 44758",fc="#F2F2F2")
+box(1.2,5.3,5.2,0.9,"Sotorasib or adagrasib recorded in any role\n4910 reports")
+box(7.0,5.25,2.8,1.0,"Not primary suspect: 411\nBoth drugs primary\nsuspect: 0",fc="#F2F2F2")
+box(1.2,3.7,5.2,1.0,"Primary-suspect cohort (main analysis)\n4499 reports",fc="#DEEBF7",bold=True)
+box(0.2,1.9,3.4,1.1,"Sotorasib: 3515\nICI co-reported: 79\nNo ICI recorded: 3436",fc="#DEEBF7")
+box(4.0,1.9,3.4,1.1,"Adagrasib: 984\nICI co-reported: 21\nNo ICI recorded: 963",fc="#FBE5D6")
+box(6.9,3.55,3.1,1.4,"Exploratory broader cohorts\nSuspect or interacting: 3721\nsotorasib, 1092 adagrasib\nAny role: 3788 sotorasib,\n1115 adagrasib",fc="#FFFFFF")
+box(7.8,1.9,2.0,1.1,"Reference drug\ndocetaxel (primary\nsuspect): 11502;\nNSCLC: 1076",fc="#EDEDED")
+for y1,y2 in [(9.8,9.2),(8.3,7.7),(6.8,6.2),(5.3,4.7)]: arrow(3.8,y1,3.8,y2)
+for y in [8.75,7.25,5.75]: arrow(6.4,y,7.0,y)
+arrow(3.0,3.7,1.9,3.0); arrow(4.6,3.7,5.7,3.0); arrow(6.4,5.6,6.9,4.6)
+ax.text(0.2,1.6,"Broader cohorts assign each report to the drug in its highest-ranked role; 7 reports with both drugs in the same highest role were excluded.\nAEMS: Adverse Event Monitoring System; FAERS: FDA Adverse Event Reporting System; ICI: Immune checkpoint inhibitor;\nNSCLC: Non-small cell lung cancer.",fontsize=8.5,va="top")
+fig.savefig("f2.png",dpi=300,bbox_inches="tight",pad_inches=0.15)
+Image.open("f2.png").convert("RGB").save("Figure1_study_flow.png",optimize=True); print("ok")
