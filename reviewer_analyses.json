@@ -1,0 +1,174 @@
+{
+ "ratio_of_RORs_ada_over_soto": {
+  "ratio": 3.75,
+  "lo": 1.25,
+  "hi": 11.32,
+  "z": 2.35,
+  "p": 0.019,
+  "soto": [
+   2.59,
+   1.63,
+   4.13
+  ],
+  "ada": [
+   9.74,
+   3.58,
+   26.49
+  ]
+ },
+ "adjusted": {
+  "ICI_in_adagrasib": [
+   9.47,
+   3.34,
+   26.82
+  ],
+  "ICI_in_sotorasib": [
+   1.68,
+   1.04,
+   2.72
+  ],
+  "interaction_soto_x_ici": [
+   0.18,
+   0.06,
+   0.56,
+   0.003
+  ],
+  "soto_vs_ada_noICI": [
+   5.36,
+   3.72,
+   7.71
+  ],
+  "soto_vs_ada_withICI": [
+   0.95,
+   0.32,
+   2.84
+  ]
+ },
+ "crude_logit_interaction": [
+  0.27,
+  0.09,
+  0.8,
+  0.019
+ ],
+ "omega_sotorasib_x_ICI": {
+  "n_both": 185,
+  "hep_both": 69,
+  "pct_both": 37.3,
+  "pct_drug_only": 18.0,
+  "pct_ici_only": 10.8,
+  "pct_neither": 2.14,
+  "expected": 44.6,
+  "omega": 0.62,
+  "omega025": 0.22
+ },
+ "omega_adagrasib_x_ICI": {
+  "n_both": 70,
+  "hep_both": 16,
+  "pct_both": 22.9,
+  "pct_drug_only": 4.2,
+  "pct_ici_only": 10.8,
+  "pct_neither": 2.15,
+  "expected": 8.7,
+  "omega": 0.84,
+  "omega025": -0.0
+ },
+ "omega_docetaxel_x_ICI": {
+  "n_both": 2882,
+  "hep_both": 254,
+  "pct_both": 8.8,
+  "pct_drug_only": 5.7,
+  "pct_ici_only": 10.8,
+  "pct_neither": 2.14,
+  "expected": 395.9,
+  "omega": -0.64,
+  "omega025": -0.85
+ },
+ "docetaxel_PS_ICI_vs_noICI": {
+  "ici": "55/559 (9.8%)",
+  "no_ici": "381/10943 (3.5%)",
+  "ROR": [
+   3.03,
+   2.25,
+   4.07
+  ]
+ },
+ "ici_role_counts": {
+  "('adagrasib', False)": 6,
+  "('adagrasib', True)": 15,
+  "('sotorasib', False)": 36,
+  "('sotorasib', True)": 43
+ },
+ "study_report_counts": {
+  "('adagrasib', False, False)": 963,
+  "('adagrasib', False, True)": 21,
+  "('sotorasib', False, False)": 3104,
+  "('sotorasib', False, True)": 68,
+  "('sotorasib', True, False)": 332,
+  "('sotorasib', True, True)": 11
+ },
+ "switch_cases": {
+  "n": 3,
+  "hepato": 0,
+  "ici": 0,
+  "ici_hep": 0
+ },
+ "interval_groups": {
+  "overlapping dates": "3/13",
+  "0-30 d": "8/16",
+  "31-90 d": "2/7",
+  ">90 d": "4/7"
+ },
+ "tto": {
+  "sotorasib all": "n=269 median 40 IQR 25-56",
+  "sotorasib no ICI": "n=250 median 40 IQR 24-57",
+  "sotorasib ICI": "n=19 median 38 IQR 26-49",
+  "adagrasib all": "n=29 median 26 IQR 11-30",
+  "adagrasib no ICI": "n=23 median 26 IQR 11-40",
+  "adagrasib ICI": "n=6 median 24 IQR 14-28"
+ },
+ "country_all": {
+  "adagrasib": {
+   "US": 76.2,
+   "other": 18.6
+  },
+  "sotorasib": {
+   "US": 30.8,
+   "other": 61.3
+  }
+ },
+ "aems": {
+  "reports_2026": 1241087,
+  "pct_2026_caseids_seen_before": 10.1,
+  "primaryid_is_caseid_plus_version_2026": 100.0,
+  "primaryid_is_caseid_plus_version_pre": 100.0,
+  "deleted_files": {
+   "2026Q1_deleted.txt": 6135,
+   "2026Q2_deleted.txt": 4217,
+   "2026Q3_deleted.txt": 4215
+  },
+  "reports_per_quarter": {
+   "2021Q2": 479945,
+   "2021Q3": 504160,
+   "2021Q4": 412542,
+   "2022Q1": 461623,
+   "2022Q2": 435618,
+   "2022Q3": 446511,
+   "2022Q4": 483643,
+   "2023Q1": 432144,
+   "2023Q2": 418592,
+   "2023Q3": 407522,
+   "2023Q4": 415379,
+   "2024Q1": 406184,
+   "2024Q2": 397119,
+   "2024Q3": 405513,
+   "2024Q4": 410849,
+   "2025Q1": 400514,
+   "2025Q2": 393130,
+   "2025Q3": 438512,
+   "2025Q4": 385288,
+   "2026Q1": 397224,
+   "2026Q2": 422459,
+   "2026Q3": 421404
+  }
+ }
+}

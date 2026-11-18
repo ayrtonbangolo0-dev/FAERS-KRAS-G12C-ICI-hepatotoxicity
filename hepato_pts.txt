@@ -1,0 +1,36 @@
+Hepatotoxicity
+Drug-induced liver injury
+Liver injury
+Hepatitis
+Hepatitis acute
+Hepatitis fulminant
+Hepatitis cholestatic
+Immune-mediated hepatitis
+Immune-mediated hepatic disorder
+Autoimmune hepatitis
+Hepatic failure
+Acute hepatic failure
+Acute on chronic liver failure
+Hepatic function abnormal
+Liver function test abnormal
+Liver function test increased
+Hepatic enzyme increased
+Hepatic enzyme abnormal
+Transaminases increased
+Transaminases abnormal
+Hypertransaminasaemia
+Alanine aminotransferase increased
+Aspartate aminotransferase increased
+Gamma-glutamyltransferase increased
+Blood alkaline phosphatase increased
+Blood bilirubin increased
+Hyperbilirubinaemia
+Jaundice
+Hepatocellular injury
+Cholestatic liver injury
+Mixed liver injury
+Cholestasis
+Hepatic cytolysis
+Liver disorder
+Hepatic necrosis
+Immune-mediated cholangitis

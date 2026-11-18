@@ -1,0 +1,101 @@
+primaryid,drug,hepato,ici,ici_start,ici_end,kras_start,event,ici_end_to_kras_start,kras_start_to_event,cls,hep_pts,narrow,n_pts,country,rept,year,LT,HO,DE,tumor
+194556502,sotorasib,False,atezolizumab:SS;atezolizumab:SS,2021-05-12,,2021-05-12,2021-06-18,,37.0,ICI ongoing (no stop date) at KRAS G12C inhibitor start,[],False,1,US,PER,2021,False,True,False,NSCLC
+194132993,sotorasib,False,pembrolizumab:SS;pembrolizumab:SS,2021-02-24,,2021-02-24,2021-06-07,,103.0,ICI ongoing (no stop date) at KRAS G12C inhibitor start,[],False,1,US,PER,2021,False,True,False,NSCLC
+194196725,sotorasib,True,pembrolizumab:SS,,,2021-02-12,2021-03-22,,38.0,insufficient dates,['Drug-induced liver injury'],True,1,DE,PER,2021,False,True,False,Other
+194196772,sotorasib,True,pembrolizumab:SS,2021-01-28,2021-04-05,2021-04-21,2021-05-17,16.0,26.0,sequential: ICI ended before KRAS G12C inhibitor start,['Liver function test abnormal'],False,2,NL,PER,2021,False,True,False,NSCLC
+194593652,sotorasib,True,atezolizumab:SS;atezolizumab:SS,2020-09-08,,2020-08-20,2020-10-12,,53.0,ICI ongoing (no stop date) at KRAS G12C inhibitor start,['Transaminases increased'],False,3,US,PER,2021,False,True,False,Other
+196575801,sotorasib,False,pembrolizumab:SS,,,,,,,insufficient dates,[],False,5,US,PER,2021,False,True,False,NSCLC
+193782685,sotorasib,False,pembrolizumab:SS,,,2021-02-23,2021-06-01,,98.0,insufficient dates,[],False,1,US,PER,2021,True,True,False,NSCLC
+199088235,sotorasib,False,atezolizumab:SS;atezolizumab:SS,2021-08-16,,2021-08-16,2021-09-20,,35.0,ICI ongoing (no stop date) at KRAS G12C inhibitor start,[],False,2,US,PER,2021,False,True,False,Other
+194936553,sotorasib,False,atezolizumab:SS;atezolizumab:SS,2021-02-09,,2021-01-19,2021-03-27,,67.0,ICI ongoing (no stop date) at KRAS G12C inhibitor start,[],False,1,US,PER,2022,True,True,True,Other
+202805853,sotorasib,True,pembrolizumab:C,,,2021-05-11,2021-12-17,,220.0,insufficient dates,"['Alanine aminotransferase increased', 'Aspartate aminotransferase increased']",False,19,US,PER,2022,True,True,True,NSCLC
+205343581,sotorasib,False,pembrolizumab:SS;pembrolizumab:SS,2020-03-04,,2020-03-04,2020-05-09,,66.0,ICI ongoing (no stop date) at KRAS G12C inhibitor start,[],False,1,AU,PER,2022,False,True,False,NSCLC
+201968744,sotorasib,False,atezolizumab:SS;atezolizumab:SS,2021-08-16,2021-10-18,2021-08-16,2021-12-03,-63.0,109.0,documented overlap before the event,[],False,2,US,PER,2022,True,True,False,Other
+205199072,sotorasib,False,pembrolizumab:SS,,,,2022-02-01,,,insufficient dates,[],False,1,GB,PER,2022,False,True,False,Other
+208072611,sotorasib,False,pembrolizumab:C,,,,,,,insufficient dates,[],False,1,US,PER,2022,False,True,False,Other
+209471033,sotorasib,True,pembrolizumab:SS,2021-05-27,2021-10-01,2021-10-20,2021-12-08,19.0,49.0,sequential: ICI ended before KRAS G12C inhibitor start,['Hepatic cytolysis'],True,1,FR,PER,2022,False,True,False,NSCLC
+210176642,sotorasib,False,durvalumab:SS;durvalumab:SS,,,2022-03-08,2022-06-17,,101.0,insufficient dates,[],False,1,SG,PER,2022,False,False,False,NSCLC
+212548591,sotorasib,False,durvalumab:SS;durvalumab:SS,2021-06-01,2022-01-31,2022-03-08,2022-01-01,36.0,-66.0,sequential: ICI ended before KRAS G12C inhibitor start,[],False,2,SG,PER,2022,False,False,False,Other
+194381795,sotorasib,True,pembrolizumab:SS;pembrolizumab:SS,,,2021-03-29,2021-04-12,,14.0,insufficient dates,['Hepatic failure'],True,1,DE,PER,2022,False,False,False,NSCLC
+209800263,sotorasib,False,pembrolizumab:C;pembrolizumab:C,,,,,,,insufficient dates,[],False,4,US,PER,2022,False,False,False,Other
+215300302,sotorasib,False,nivolumab:C;ipilimumab:C,2022-01-20,,,2021-12-28,,,insufficient dates,[],False,1,DE,PER,2022,False,False,False,NSCLC
+216845992,sotorasib,True,nivolumab:SS,,2022-06-14,2022-07-15,2022-08-21,31.0,37.0,sequential: ICI ended before KRAS G12C inhibitor start,"['Alanine aminotransferase increased', 'Aspartate aminotransferase increased', 'Blood alkaline phosphatase increased', 'Gamma-glutamyltransferase increased']",False,6,NL,PER,2022,False,True,False,NSCLC
+217631681,adagrasib,True,pembrolizumab:SS,2022-11-08,2022-11-08,2022-11-08,2022-12-06,0.0,28.0,documented overlap before the event,"['Blood alkaline phosphatase increased', 'Gamma-glutamyltransferase increased', 'Hepatotoxicity']",True,3,PL,EXP,2022,False,False,False,NSCLC
+218122022,adagrasib,False,pembrolizumab:SS,2022-08-30,2022-11-23,2022-08-30,2022-12-14,-85.0,106.0,documented overlap before the event,[],False,5,PL,EXP,2023,False,True,True,NSCLC
+218232641,adagrasib,True,pembrolizumab:SS,2022-11-01,2022-11-01,2022-11-01,2022-11-29,0.0,28.0,documented overlap before the event,['Hepatic function abnormal'],False,1,CN,EXP,2023,False,True,False,NSCLC
+220226821,adagrasib,False,pembrolizumab:SS,2022-12-09,2023-01-19,2022-12-09,2023-01-30,-41.0,52.0,documented overlap before the event,[],False,1,US,EXP,2023,False,True,False,NSCLC
+220550802,adagrasib,True,pembrolizumab:SS,2023-01-10,2023-01-31,2023-01-10,2023-02-07,-21.0,28.0,documented overlap before the event,"['Gamma-glutamyltransferase increased', 'Hypertransaminasaemia']",False,4,IT,EXP,2023,False,True,False,NSCLC
+220851111,sotorasib,False,pembrolizumab:C,2021-11-05,2022-05-15,2022-06-10,,26.0,,insufficient dates,[],False,1,AT,PER,2023,False,False,False,NSCLC
+222508482,sotorasib,False,pembrolizumab:C,,,2021-08-11,2021-08-11,,0.0,insufficient dates,[],False,1,FR,EXP,2023,False,False,False,NSCLC
+222593602,sotorasib,True,pembrolizumab:C,,,2022-03-01,2022-03-28,,27.0,insufficient dates,['Cholestasis'],False,4,FR,EXP,2023,False,True,True,NSCLC
+223216941,sotorasib,False,pembrolizumab:C,,2021-05-10,2020-11-23,2021-01-30,-168.0,68.0,"ICI stop on/after KRAS start, ICI start missing",[],False,1,US,EXP,2023,False,True,False,Other
+223222171,sotorasib,True,ipilimumab:C;nivolumab:C,,,,,,,insufficient dates,['Liver function test increased'],False,2,US,PER,2023,False,False,False,NSCLC
+223494271,adagrasib,False,pembrolizumab:C,,,2023-05-04,2023-05-04,,0.0,insufficient dates,[],False,2,US,EXP,2023,False,True,False,NSCLC
+226107661,sotorasib,False,pembrolizumab:SS,2022-08-17,2022-10-06,2022-11-19,2023-01-03,44.0,45.0,sequential: ICI ended before KRAS G12C inhibitor start,[],False,1,FR,EXP,2023,False,True,False,NSCLC
+226143171,sotorasib,True,pembrolizumab:SS,2022-03-14,2022-08-31,2022-09-29,2022-11-10,29.0,42.0,sequential: ICI ended before KRAS G12C inhibitor start,"['Cholestasis', 'Hepatic cytolysis']",True,3,FR,EXP,2023,False,False,False,NSCLC
+195222747,sotorasib,True,pembrolizumab:SS;pembrolizumab:SS,2021-02-02,,2020-12-22,2021-03-18,,86.0,ICI ongoing (no stop date) at KRAS G12C inhibitor start,['Immune-mediated hepatitis'],True,1,US,EXP,2023,False,True,False,NSCLC
+197531724,sotorasib,False,pembrolizumab:SS;pembrolizumab:SS,2020-07-16,2020-08-06,2020-07-16,2021-04-20,-21.0,278.0,documented overlap before the event,[],False,1,US,EXP,2023,False,True,False,NSCLC
+221174203,sotorasib,False,atezolizumab:SS;atezolizumab:SS,2022-11-09,,2022-07-20,2022-11-15,,118.0,ICI ongoing (no stop date) at KRAS G12C inhibitor start,[],False,1,US,EXP,2023,False,True,False,NSCLC
+226086153,sotorasib,True,pembrolizumab:C,,,2022-03-01,2022-04-11,,41.0,insufficient dates,['Drug-induced liver injury'],True,1,FR,EXP,2023,False,True,False,NSCLC
+226089802,sotorasib,True,pembrolizumab:SS;pembrolizumab:SS;pembrolizumab:SS,,,2021-12-02,2022-01-10,,39.0,insufficient dates,['Autoimmune hepatitis'],True,1,FR,EXP,2023,False,False,False,NSCLC
+226141832,sotorasib,True,pembrolizumab:SS;pembrolizumab:SS;pembrolizumab:SS,2021-07-21,,2021-11-30,2021-12-27,,27.0,ICI ongoing (no stop date) at KRAS G12C inhibitor start,['Autoimmune hepatitis'],True,1,FR,EXP,2023,False,False,False,NSCLC
+226905212,sotorasib,False,atezolizumab:SS,2022-07-08,2022-08-04,2022-08-12,2022-08-29,8.0,17.0,sequential: ICI ended before KRAS G12C inhibitor start,[],False,2,JP,EXP,2023,False,True,True,NSCLC
+227741112,adagrasib,False,pembrolizumab:SS,2021-03-31,2023-01-20,2023-04-28,2023-06-01,98.0,34.0,sequential: ICI ended before KRAS G12C inhibitor start,[],False,2,BE,EXP,2023,False,False,True,NSCLC
+227903693,sotorasib,False,nivolumab:C,,,,2023-07-01,,,insufficient dates,[],False,2,JP,EXP,2023,False,False,False,NSCLC
+229159931,sotorasib,False,pembrolizumab:SS,2022-11-02,2022-11-02,2023-02-17,2023-02-20,107.0,3.0,sequential: ICI ended before KRAS G12C inhibitor start,[],False,3,FR,EXP,2023,False,True,False,NSCLC
+229549051,sotorasib,False,pembrolizumab:C;pembrolizumab:C,,,,,,,insufficient dates,[],False,1,GB,EXP,2023,False,False,False,NSCLC
+229577961,sotorasib,False,atezolizumab:C;atezolizumab:C,2020-11-13,2022-12-23,2023-02-19,2021-11-11,58.0,-465.0,sequential: ICI ended before KRAS G12C inhibitor start,[],False,1,BG,EXP,2023,False,False,False,NSCLC
+209288545,sotorasib,True,pembrolizumab:SS,,,2022-01-27,2022-03-17,,49.0,insufficient dates,['Hepatic failure'],True,2,IL,EXP,2023,False,True,False,NSCLC
+213703244,sotorasib,True,durvalumab:SS;durvalumab:SS,2021-07-02,2022-01-28,2022-05-28,2022-06-10,120.0,13.0,sequential: ICI ended before KRAS G12C inhibitor start,['Hepatic function abnormal'],False,3,JP,EXP,2023,False,False,False,NSCLC
+230750651,adagrasib,False,nivolumab:C;ipilimumab:C,,,2022-11-17,2023-01-01,,45.0,insufficient dates,[],False,2,US,PER,2023,False,False,False,CRC
+233430531,sotorasib,True,pembrolizumab:C,,,2023-12-20,2022-09-01,,-475.0,insufficient dates,['Hepatic enzyme increased'],False,7,US,EXP,2023,False,True,False,Other
+230649995,adagrasib,True,pembrolizumab:SS,2022-08-03,2023-06-29,2023-09-01,2023-09-02,64.0,1.0,sequential: ICI ended before KRAS G12C inhibitor start,['Mixed liver injury'],True,7,FR,EXP,2024,True,True,True,NSCLC
+234678575,adagrasib,False,pembrolizumab:SS,,,2024-01-19,2024-01-01,,-18.0,insufficient dates,[],False,15,US,EXP,2024,False,False,False,NSCLC
+235709022,adagrasib,False,nivolumab:C,,,2024-02-06,2024-02-11,,5.0,insufficient dates,[],False,9,US,EXP,2024,False,True,False,NSCLC
+236617651,sotorasib,False,pembrolizumab:SS,,,,2022-08-25,,,insufficient dates,[],False,3,FR,EXP,2024,False,False,False,Other
+228777312,sotorasib,False,nivolumab:C,,,2022-05-12,2023-08-01,,446.0,insufficient dates,[],False,1,JP,EXP,2024,False,False,False,Other
+231341022,sotorasib,True,nivolumab:C;nivolumab:C;atezolizumab:C;atezolizumab:C,,,,2020-01-01,,,insufficient dates,['Liver disorder'],False,7,JP,EXP,2024,False,False,False,NSCLC
+237393601,sotorasib,True,pembrolizumab:C,,,,,,,insufficient dates,['Hepatotoxicity'],True,3,US,EXP,2024,False,False,True,NSCLC
+237508911,sotorasib,False,pembrolizumab:C,,,2023-04-21,2024-01-01,,255.0,insufficient dates,[],False,1,JP,EXP,2024,False,False,False,Other
+237756693,sotorasib,False,pembrolizumab:C,,,,2024-03-01,,,insufficient dates,[],False,2,JP,EXP,2024,False,False,False,NSCLC
+238554682,adagrasib,False,pembrolizumab:SS,,,2024-04-19,2024-01-01,,-109.0,insufficient dates,[],False,23,US,EXP,2024,False,True,False,NSCLC
+238682982,sotorasib,True,ipilimumab:C;nivolumab:C,2023-03-13,2023-08-16,,,,,insufficient dates,['Hepatotoxicity'],True,2,BG,EXP,2024,False,False,True,NSCLC
+239247491,sotorasib,True,pembrolizumab:SS,,,,,,,insufficient dates,['Hepatitis'],True,3,US,PER,2024,False,False,False,Other
+229263403,sotorasib,True,atezolizumab:C,,,2023-08-01,2023-01-01,,-212.0,insufficient dates,['Hepatic function abnormal'],False,2,JP,EXP,2024,False,False,False,Other
+240826762,adagrasib,True,pembrolizumab:SS,2022-06-15,,2024-05-15,2024-05-27,,12.0,ICI ongoing (no stop date) at KRAS G12C inhibitor start,['Cholestasis'],False,12,FR,EXP,2024,True,True,False,NSCLC
+241378121,adagrasib,False,durvalumab:SS,2024-04-05,,2024-06-04,2024-06-25,,21.0,ICI ongoing (no stop date) at KRAS G12C inhibitor start,[],False,4,FR,EXP,2024,False,True,False,NSCLC
+242823341,sotorasib,False,pembrolizumab:SS,,,2023-04-14,2023-11-24,,224.0,insufficient dates,[],False,1,FR,EXP,2024,False,False,False,NSCLC
+2260159510,sotorasib,False,pembrolizumab:C,2023-06-08,2023-06-08,2023-03-22,2023-05-03,-78.0,42.0,ICI started after the event,[],False,3,JP,EXP,2024,False,False,True,Other
+238842882,sotorasib,False,pembrolizumab:SS,,,2022-05-21,2022-08-17,,88.0,insufficient dates,[],False,3,JP,EXP,2024,False,True,False,NSCLC
+239484982,sotorasib,True,ipilimumab:SS;nivolumab:SS,,,2024-03-10,2024-01-01,,-69.0,insufficient dates,['Hepatic function abnormal'],False,3,JP,EXP,2024,False,False,False,Other
+240086882,sotorasib,False,atezolizumab:C,,,,,,,insufficient dates,[],False,2,JP,EXP,2024,False,True,False,NSCLC
+243275402,sotorasib,True,pembrolizumab:SS,2023-01-31,,2023-07-04,2023-07-19,,15.0,ICI ongoing (no stop date) at KRAS G12C inhibitor start,['Transaminases increased'],False,4,JP,EXP,2024,False,False,False,Other
+243835351,adagrasib,False,pembrolizumab:SS,,2024-05-27,2024-07-08,2024-07-16,42.0,8.0,sequential: ICI ended before KRAS G12C inhibitor start,[],False,4,FR,EXP,2024,False,True,False,NSCLC
+245505871,sotorasib,False,durvalumab:C,,,2023-10-26,,,,insufficient dates,[],False,2,PL,EXP,2024,False,False,False,Other
+245515541,sotorasib,False,pembrolizumab:C,,,,2022-11-01,,,insufficient dates,[],False,2,US,EXP,2024,False,False,False,Pancreatic
+249556771,sotorasib,False,pembrolizumab:SS,,,,,,,insufficient dates,[],False,4,JP,EXP,2025,False,False,False,NSCLC
+250356091,adagrasib,False,pembrolizumab:SS,2025-01-17,2025-01-17,2025-01-24,2025-01-31,7.0,7.0,sequential: ICI ended before KRAS G12C inhibitor start,[],False,2,FR,EXP,2025,False,True,False,NSCLC
+250057973,adagrasib,False,atezolizumab:C,,,2025-01-15,2025-02-12,,28.0,insufficient dates,[],False,6,US,EXP,2025,False,True,False,CRC
+251362993,sotorasib,True,pembrolizumab:C,,,2025-02-06,2025-03-10,,32.0,insufficient dates,"['Hepatitis acute', 'Jaundice']",True,3,IT,EXP,2025,True,True,True,NSCLC
+251896861,adagrasib,True,nivolumab:C;ipilimumab:C,2024-10-21,2025-03-14,2025-03-20,2025-04-08,6.0,19.0,sequential: ICI ended before KRAS G12C inhibitor start,"['Alanine aminotransferase increased', 'Aspartate aminotransferase increased', 'Blood alkaline phosphatase increased', 'Blood bilirubin increased']",False,4,,DIR,2025,True,True,False,NSCLC
+252168781,sotorasib,False,pembrolizumab:SS,,,2024-09-17,2024-01-01,,-260.0,insufficient dates,[],False,4,JP,EXP,2025,False,True,True,NSCLC
+253250052,sotorasib,False,atezolizumab:C,,,2023-07-22,2023-07-22,,0.0,insufficient dates,[],False,5,JP,EXP,2025,False,False,True,NSCLC
+254834171,sotorasib,False,pembrolizumab:C,,,,2024-04-01,,,insufficient dates,[],False,1,SI,EXP,2025,False,False,False,NSCLC
+254906261,sotorasib,False,atezolizumab:C;atezolizumab:C,,,,,,,insufficient dates,[],False,2,JP,EXP,2025,False,False,False,Other
+253686662,sotorasib,False,atezolizumab:C,2024-02-15,2024-05-21,2022-08-18,2023-04-25,-642.0,250.0,ICI started after the event,[],False,3,JP,EXP,2025,True,False,False,NSCLC
+255547581,sotorasib,False,atezolizumab:C,,,,,,,insufficient dates,[],False,3,JP,EXP,2025,False,False,False,NSCLC
+256187292,sotorasib,True,atezolizumab:SS,,,,,,,insufficient dates,"['Alanine aminotransferase increased', 'Aspartate aminotransferase increased', 'Blood alkaline phosphatase increased', 'Gamma-glutamyltransferase increased']",False,5,JP,EXP,2025,False,False,False,Other
+257016311,adagrasib,False,pembrolizumab:C,,,2025-07-24,2025-08-10,,17.0,insufficient dates,[],False,7,US,PER,2025,False,False,False,NSCLC
+261020782,sotorasib,True,pembrolizumab:SS,2024-12-23,2025-08-20,2025-09-16,2025-11-11,27.0,56.0,sequential: ICI ended before KRAS G12C inhibitor start,['Liver disorder'],False,2,JP,EXP,2025,False,True,False,NSCLC
+261137391,sotorasib,False,pembrolizumab:C;pembrolizumab:C;atezolizumab:C;atezolizumab:C,,,,,,,insufficient dates,[],False,3,JP,EXP,2025,False,False,False,NSCLC
+261505111,sotorasib,True,pembrolizumab:SS,,,,,,,insufficient dates,"['Alanine aminotransferase increased', 'Aspartate aminotransferase increased', 'Gamma-glutamyltransferase increased']",False,7,JP,EXP,2025,False,False,False,Other
+261808261,sotorasib,False,pembrolizumab:C,,,,2025-01-01,,,insufficient dates,[],False,1,EU,EXP,2025,False,True,False,NSCLC
+264981361,adagrasib,False,pembrolizumab:SS,2021-11-12,2023-10-06,2024-07-19,2023-10-30,287.0,-263.0,sequential: ICI ended before KRAS G12C inhibitor start,[],False,3,EU,EXP,2026,False,True,False,NSCLC
+1993724411,sotorasib,False,pembrolizumab:SS,2021-08-27,2021-09-17,2021-09-21,2021-09-23,4.0,2.0,sequential: ICI ended before KRAS G12C inhibitor start,[],False,2,EU,EXP,2026,False,True,True,NSCLC
+266340851,sotorasib,False,durvalumab:SS,,,,,,,insufficient dates,[],False,6,CA,EXP,2026,False,True,False,NSCLC
+267639181,sotorasib,False,atezolizumab:C,,,2026-04-24,,,,insufficient dates,[],False,4,RU,EXP,2026,False,False,False,NSCLC
+266200602,sotorasib,True,pembrolizumab:SS,2025-01-31,2025-03-04,2025-04-03,2025-04-15,30.0,12.0,sequential: ICI ended before KRAS G12C inhibitor start,['Hepatic function abnormal'],False,4,JP,EXP,2026,False,True,False,NSCLC
+270358182,sotorasib,False,pembrolizumab:C,,,,,,,insufficient dates,[],False,3,CA,EXP,2026,False,False,False,NSCLC
+270358412,sotorasib,False,pembrolizumab:SS,,,,,,,insufficient dates,[],False,3,CA,EXP,2026,False,False,False,NSCLC
+271493511,adagrasib,False,pembrolizumab:SS,2026-05-05,2026-07-08,2026-05-05,2026-07-11,-64.0,67.0,documented overlap before the event,[],False,1,EU,EXP,2026,False,True,False,NSCLC
+273219511,sotorasib,False,pembrolizumab:C,,,,2025-01-01,,,insufficient dates,[],False,4,EU,EXP,2026,False,False,False,NSCLC

@@ -1,0 +1,138 @@
+{
+ "raw_reports": 9375875,
+ "case_latest_lines": 8024130,
+ "deleted_caseids_listed": 114110,
+ "kept": 7979372,
+ "kras_any_role_reports": 4910,
+ "kras_any_role_by_drug": {
+  "adagrasib": 1130,
+  "sotorasib": 3798
+ },
+ "kras_ps_reports": 4499,
+ "both_ps_excluded": 0,
+ "not_ps_excluded": 411,
+ "cohort_ps": 4499,
+ "kras_raw_reports_before_dedup": 5565,
+ "diagnostics": [
+  {
+   "model": "Interaction, all indications, adjusted",
+   "n": 4499,
+   "events": 701,
+   "nonevents": 3798,
+   "parameters": 19,
+   "epv": 36.9,
+   "iterations": 7,
+   "converged": true,
+   "max_abs_coef": 1.73,
+   "max_se": 0.59,
+   "c_statistic": 0.723,
+   "condition_number": 4.2
+  },
+  {
+   "model": "Interaction, all indications, Firth",
+   "n": 4499,
+   "events": 701,
+   "nonevents": 3798,
+   "parameters": 19,
+   "epv": 36.9,
+   "iterations": 9,
+   "converged": true,
+   "max_abs_coef": 1.75,
+   "max_se": 0.58,
+   "c_statistic": 0.723,
+   "condition_number": 4.2
+  },
+  {
+   "model": "Sotorasib, NSCLC, adjusted",
+   "n": 1875,
+   "events": 429,
+   "nonevents": 1446,
+   "parameters": 14,
+   "epv": 30.6,
+   "iterations": 7,
+   "converged": true,
+   "max_abs_coef": 1.25,
+   "max_se": 0.48,
+   "c_statistic": 0.638,
+   "condition_number": 4.1
+  },
+  {
+   "model": "Adagrasib, NSCLC, adjusted",
+   "n": 577,
+   "events": 36,
+   "nonevents": 541,
+   "parameters": 14,
+   "epv": 2.6,
+   "iterations": 200,
+   "converged": false,
+   "max_abs_coef": 31.48,
+   "max_se": 1313466.66,
+   "c_statistic": 0.841,
+   "condition_number": 18.4
+  },
+  {
+   "model": "Docetaxel, NSCLC, adjusted",
+   "n": 1076,
+   "events": 97,
+   "nonevents": 979,
+   "parameters": 14,
+   "epv": 6.9,
+   "iterations": 200,
+   "converged": false,
+   "max_abs_coef": 29.8,
+   "max_se": 1314836.3,
+   "c_statistic": 0.741,
+   "condition_number": 2.6
+  },
+  {
+   "model": "Pooled NSCLC, sotorasib vs docetaxel",
+   "n": 2951,
+   "events": 526,
+   "nonevents": 2425,
+   "parameters": 16,
+   "epv": 32.9,
+   "iterations": 7,
+   "converged": true,
+   "max_abs_coef": 1.32,
+   "max_se": 0.41,
+   "c_statistic": 0.692,
+   "condition_number": 3.5
+  },
+  {
+   "model": "Pooled NSCLC, adagrasib vs docetaxel",
+   "n": 1653,
+   "events": 133,
+   "nonevents": 1520,
+   "parameters": 16,
+   "epv": 8.3,
+   "iterations": 8,
+   "converged": true,
+   "max_abs_coef": 1.61,
+   "max_se": 0.78,
+   "c_statistic": 0.741,
+   "condition_number": 4.2
+  }
+ ],
+ "ici_cells": {
+  "sotorasib": {
+   "ici_hep": 29,
+   "ici_nohep": 50,
+   "nsclc_ici_hep": 20
+  },
+  "adagrasib": {
+   "ici_hep": 6,
+   "ici_nohep": 15,
+   "nsclc_ici_hep": 6
+  }
+ },
+ "unspecified_indication": {
+  "sotorasib": {
+   "n": 1452,
+   "pct": 41.3
+  },
+  "adagrasib": {
+   "n": 301,
+   "pct": 30.6
+  }
+ }
+}

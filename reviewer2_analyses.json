@@ -1,0 +1,1012 @@
+{
+ "check_PS": {
+  "sotorasib": {
+   "n": 3515,
+   "hep": 657,
+   "ici": 79,
+   "nsclc": 1875
+  },
+  "adagrasib": {
+   "n": 984,
+   "hep": 44,
+   "ici": 21,
+   "nsclc": 577
+  }
+ },
+ "check_PS_match_published_ids": 0,
+ "role_counts": {
+  "sotorasib": {
+   "PS": 3515,
+   "SS": 193,
+   "C": 67,
+   "I": 13
+  },
+  "adagrasib": {
+   "PS": 984,
+   "SS": 90,
+   "C": 23,
+   "I": 18
+  }
+ },
+ "role_by_ici": {
+  "sotorasib": {
+   "PS": {
+    "n": 79,
+    "hep": 29
+   },
+   "SS": {
+    "n": 62,
+    "hep": 30
+   },
+   "I": {
+    "n": 4,
+    "hep": 4
+   },
+   "C": {
+    "n": 35,
+    "hep": 6
+   }
+  },
+  "adagrasib": {
+   "PS": {
+    "n": 21,
+    "hep": 6
+   },
+   "SS": {
+    "n": 38,
+    "hep": 8
+   },
+   "I": {
+    "n": 0,
+    "hep": 0
+   },
+   "C": {
+    "n": 4,
+    "hep": 0
+   }
+  }
+ },
+ "indication_coding": {
+  "kras_PS": {
+   "NSCLC": 2452,
+   "Unknown": 1753,
+   "CRC": 177,
+   "Other": 93,
+   "Pancreatic": 24
+  },
+  "docetaxel": {
+   "Other": 8385,
+   "Unknown": 2033,
+   "NSCLC": 1076,
+   "CRC": 8
+  }
+ },
+ "cohort_PS": {
+  "sotorasib": {
+   "n": 3515,
+   "ici": "29/79",
+   "noici": "628/3436",
+   "crude": [
+    2.59,
+    1.63,
+    4.13
+   ],
+   "adj_all": [
+    1.67,
+    1.03,
+    2.69,
+    0.0371
+   ],
+   "nsclc": {
+    "n": 1875,
+    "ici": "20/55",
+    "noici": "409/1820",
+    "crude": [
+     1.97,
+     1.13,
+     3.45
+    ],
+    "adj": [
+     1.5,
+     0.84,
+     2.69,
+     0.1684
+    ]
+   },
+   "ratio_vs_docetaxel_nsclc": [
+    1.32,
+    0.59,
+    2.97,
+    0.5027,
+    0.5015
+   ]
+  },
+  "adagrasib": {
+   "n": 984,
+   "ici": "6/21",
+   "noici": "38/963",
+   "crude": [
+    9.74,
+    3.58,
+    26.49
+   ],
+   "adj_all": [
+    6.09,
+    1.83,
+    20.21,
+    0.0032
+   ],
+   "nsclc": {
+    "n": 577,
+    "ici": "6/19",
+    "noici": "30/558",
+    "crude": [
+     8.12,
+     2.89,
+     22.87
+    ],
+    "adj": [
+     6.59,
+     1.87,
+     23.28,
+     0.0034
+    ]
+   },
+   "ratio_vs_docetaxel_nsclc": [
+    5.02,
+    1.4,
+    17.94,
+    0.0131,
+    0.0169
+   ]
+  },
+  "both_crude": [
+   3.02,
+   1.98,
+   4.59
+  ],
+  "both_ici": "35/100",
+  "both_noici": "666/4399",
+  "interaction_crude_ml": [
+   3.75,
+   1.25,
+   11.32,
+   0.0188,
+   0.0272
+  ],
+  "interaction_crude_firth": [
+   3.86,
+   1.29,
+   11.54,
+   0.0156,
+   0.0139
+  ],
+  "interaction_adjusted_ml": [
+   5.65,
+   1.79,
+   17.78,
+   0.0031,
+   0.006
+  ],
+  "interaction_adjusted_firth": [
+   5.75,
+   1.85,
+   17.93,
+   0.0026,
+   0.0033
+  ]
+ },
+ "cohort_suspect_interacting": {
+  "sotorasib": {
+   "n": 3721,
+   "ici": "63/145",
+   "noici": "647/3576",
+   "crude": [
+    3.48,
+    2.48,
+    4.88
+   ],
+   "adj_all": [
+    2.44,
+    1.71,
+    3.49,
+    0.0
+   ],
+   "nsclc": {
+    "n": 1986,
+    "ici": "49/109",
+    "noici": "416/1877",
+    "crude": [
+     2.87,
+     1.94,
+     4.25
+    ],
+    "adj": [
+     2.39,
+     1.58,
+     3.62,
+     0.0
+    ]
+   },
+   "ratio_vs_docetaxel_nsclc": [
+    2.13,
+    1.06,
+    4.31,
+    0.0346,
+    0.0304
+   ]
+  },
+  "adagrasib": {
+   "n": 1092,
+   "ici": "14/59",
+   "noici": "41/1033",
+   "crude": [
+    7.53,
+    3.83,
+    14.8
+   ],
+   "adj_all": [
+    4.82,
+    2.13,
+    10.88,
+    0.0002
+   ],
+   "nsclc": {
+    "n": 639,
+    "ici": "14/51",
+    "noici": "30/588",
+    "crude": [
+     7.04,
+     3.44,
+     14.41
+    ],
+    "adj": [
+     4.97,
+     2.14,
+     11.53,
+     0.0002
+    ]
+   },
+   "ratio_vs_docetaxel_nsclc": [
+    3.27,
+    1.23,
+    8.71,
+    0.0177,
+    0.0181
+   ]
+  },
+  "both_crude": [
+   3.46,
+   2.57,
+   4.64
+  ],
+  "both_ici": "77/204",
+  "both_noici": "688/4609",
+  "interaction_crude_ml": [
+   2.16,
+   1.02,
+   4.61,
+   0.0455,
+   0.0515
+  ],
+  "interaction_crude_firth": [
+   2.19,
+   1.03,
+   4.65,
+   0.0414,
+   0.0169
+  ],
+  "interaction_adjusted_ml": [
+   2.2,
+   1.01,
+   4.8,
+   0.0478,
+   0.0533
+  ],
+  "interaction_adjusted_firth": [
+   2.22,
+   1.02,
+   4.82,
+   0.0439,
+   0.018
+  ]
+ },
+ "cohort_any_role": {
+  "sotorasib": {
+   "n": 3788,
+   "ici": "69/180",
+   "noici": "648/3608",
+   "crude": [
+    2.84,
+    2.08,
+    3.88
+   ],
+   "adj_all": [
+    2.05,
+    1.47,
+    2.85,
+    0.0
+   ],
+   "nsclc": {
+    "n": 2003,
+    "ici": "53/118",
+    "noici": "416/1885",
+    "crude": [
+     2.88,
+     1.97,
+     4.21
+    ],
+    "adj": [
+     2.41,
+     1.62,
+     3.61,
+     0.0
+    ]
+   },
+   "ratio_vs_docetaxel_nsclc": [
+    2.15,
+    1.07,
+    4.31,
+    0.0311,
+    0.0269
+   ]
+  },
+  "adagrasib": {
+   "n": 1115,
+   "ici": "14/63",
+   "noici": "42/1052",
+   "crude": [
+    6.87,
+    3.52,
+    13.42
+   ],
+   "adj_all": [
+    4.82,
+    2.14,
+    10.88,
+    0.0002
+   ],
+   "nsclc": {
+    "n": 643,
+    "ici": "14/52",
+    "noici": "31/591",
+    "crude": [
+     6.66,
+     3.27,
+     13.56
+    ],
+    "adj": [
+     4.84,
+     2.09,
+     11.21,
+     0.0002
+    ]
+   },
+   "ratio_vs_docetaxel_nsclc": [
+    3.16,
+    1.19,
+    8.4,
+    0.0208,
+    0.0213
+   ]
+  },
+  "both_crude": [
+   2.98,
+   2.26,
+   3.94
+  ],
+  "both_ici": "83/243",
+  "both_noici": "690/4660",
+  "interaction_crude_ml": [
+   2.42,
+   1.16,
+   5.06,
+   0.019,
+   0.0236
+  ],
+  "interaction_crude_firth": [
+   2.45,
+   1.17,
+   5.1,
+   0.0169,
+   0.0078
+  ],
+  "interaction_adjusted_ml": [
+   2.45,
+   1.14,
+   5.25,
+   0.0217,
+   0.026
+  ],
+  "interaction_adjusted_firth": [
+   2.47,
+   1.16,
+   5.27,
+   0.0196,
+   0.0088
+  ]
+ },
+ "cohort_nonPS_only": {
+  "sotorasib": {
+   "ici_hep": 40,
+   "ici_n": 101,
+   "noici_hep": 20,
+   "noici_n": 172
+  },
+  "adagrasib": {
+   "ici_hep": 8,
+   "ici_n": 42,
+   "noici_hep": 4,
+   "noici_n": 89
+  }
+ },
+ "recoded_published_full_cohort": {
+  "ml": {
+   "ratio": [
+    5.65,
+    1.79,
+    17.78,
+    0.0031,
+    0.006
+   ],
+   "ici_soto": [
+    1.69,
+    1.04,
+    2.72,
+    0.0331
+   ],
+   "ici_ada": [
+    9.52,
+    3.36,
+    26.96,
+    0.0
+   ],
+   "soto_vs_ada_noici": [
+    0.19,
+    0.13,
+    0.27,
+    0.0
+   ],
+   "soto_vs_ada_ici": [
+    1.05,
+    0.35,
+    3.15,
+    0.924
+   ]
+  },
+  "firth": {
+   "ratio": [
+    5.75,
+    1.85,
+    17.93,
+    0.0026,
+    0.0033
+   ],
+   "ici_soto": [
+    1.69,
+    1.05,
+    2.73,
+    0.0316
+   ],
+   "ici_ada": [
+    9.73,
+    3.47,
+    27.27,
+    0.0
+   ],
+   "soto_vs_ada_noici": [
+    0.19,
+    0.13,
+    0.27,
+    0.0
+   ],
+   "soto_vs_ada_ici": [
+    1.09,
+    0.37,
+    3.24,
+    0.8726
+   ]
+  },
+  "docetaxel_all_adjusted": [
+   2.24,
+   1.63,
+   3.07,
+   0.0
+  ],
+  "pooled_all_sotorasib_vs_docetaxel": [
+   0.69,
+   0.39,
+   1.22,
+   0.1994
+  ],
+  "pooled_all_adagrasib_vs_docetaxel": [
+   1.86,
+   0.61,
+   5.69,
+   0.2737
+  ]
+ },
+ "complete_case": {
+  "sotorasib": {
+   "n_nsclc": 1875,
+   "n_complete": 954,
+   "ici": "19/50",
+   "noici": "243/904",
+   "crude": [
+    1.67,
+    0.92,
+    3.01
+   ],
+   "adj": [
+    1.41,
+    0.77,
+    2.59,
+    0.2608
+   ],
+   "ratio_vs_docetaxel": [
+    1.2,
+    0.52,
+    2.77,
+    0.6672,
+    0.6667
+   ]
+  },
+  "adagrasib": {
+   "n_nsclc": 577,
+   "n_complete": 137,
+   "ici": "1/6",
+   "noici": "16/131",
+   "crude": [
+    1.44,
+    0.16,
+    13.1
+   ],
+   "adj": [
+    2.31,
+    0.19,
+    28.5,
+    0.5147
+   ],
+   "ratio_vs_docetaxel": [
+    0.86,
+    0.08,
+    8.79,
+    0.8961,
+    0.8948
+   ]
+  },
+  "docetaxel": {
+   "n_nsclc": 1076,
+   "n_complete": 938,
+   "ici": "16/143",
+   "noici": "79/795",
+   "adj": [
+    1.29,
+    0.71,
+    2.34,
+    0.3981
+   ]
+  },
+  "interaction_full_complete": {
+   "n": 1205,
+   "ici_events": {
+    "sotorasib": 19,
+    "adagrasib": 1
+   },
+   "ratio": [
+    0.77,
+    0.08,
+    7.63,
+    0.8264,
+    0.8227
+   ],
+   "ici_soto": [
+    1.42,
+    0.78,
+    2.59,
+    0.2553
+   ],
+   "ici_ada": [
+    1.1,
+    0.12,
+    10.0,
+    0.9339
+   ]
+  }
+ },
+ "missingness": {
+  "sotorasib": {
+   "age": {
+    "n_missing": 1766,
+    "pct_missing": 50.2,
+    "hep_missing": 15.5,
+    "hep_known": 22.0,
+    "ici_missing": 0.7,
+    "ici_known": 3.8
+   },
+   "sex": {
+    "n_missing": 955,
+    "pct_missing": 27.2,
+    "hep_missing": 14.7,
+    "hep_known": 20.2,
+    "ici_missing": 0.5,
+    "ici_known": 2.9
+   },
+   "country": {
+    "n_missing": 280,
+    "pct_missing": 8.0,
+    "hep_missing": 4.6,
+    "hep_known": 19.9,
+    "ici_missing": 0.0,
+    "ici_known": 2.4
+   },
+   "reporter": {
+    "n_missing": 221,
+    "pct_missing": 6.3,
+    "hep_missing": 5.0,
+    "hep_known": 19.6,
+    "ici_missing": 0.0,
+    "ici_known": 2.4
+   },
+   "indication": {
+    "n_missing": 1452,
+    "pct_missing": 41.3,
+    "hep_missing": 14.8,
+    "hep_known": 21.4,
+    "ici_missing": 1.5,
+    "ici_known": 2.8
+   },
+   "any_missing_age_sex_country_reporter": 60.7,
+   "by_report_type_age_missing_pct": {
+    "DIR": 38.6,
+    "EXP": 46.9,
+    "PER": 56.4
+   }
+  },
+  "adagrasib": {
+   "age": {
+    "n_missing": 624,
+    "pct_missing": 63.4,
+    "hep_missing": 3.2,
+    "hep_known": 6.7,
+    "ici_missing": 2.1,
+    "ici_known": 2.2
+   },
+   "sex": {
+    "n_missing": 254,
+    "pct_missing": 25.8,
+    "hep_missing": 6.3,
+    "hep_known": 3.8,
+    "ici_missing": 2.8,
+    "ici_known": 1.9
+   },
+   "country": {
+    "n_missing": 51,
+    "pct_missing": 5.2,
+    "hep_missing": 5.9,
+    "hep_known": 4.4,
+    "ici_missing": 2.0,
+    "ici_known": 2.1
+   },
+   "reporter": {
+    "n_missing": 77,
+    "pct_missing": 7.8,
+    "hep_missing": 1.3,
+    "hep_known": 4.7,
+    "ici_missing": 0.0,
+    "ici_known": 2.3
+   },
+   "indication": {
+    "n_missing": 301,
+    "pct_missing": 30.6,
+    "hep_missing": 1.3,
+    "hep_known": 5.9,
+    "ici_missing": 0.0,
+    "ici_known": 3.1
+   },
+   "any_missing_age_sex_country_reporter": 74.1,
+   "by_report_type_age_missing_pct": {
+    "DIR": 47.1,
+    "EXP": 72.6,
+    "PER": 44.3
+   }
+  },
+  "docetaxel_nsclc": {
+   "age": {
+    "n_missing": 92,
+    "pct_missing": 8.6,
+    "hep_missing": 0.0,
+    "hep_known": 9.9,
+    "ici_missing": 13.0,
+    "ici_known": 16.0
+   },
+   "sex": {
+    "n_missing": 70,
+    "pct_missing": 6.5,
+    "hep_missing": 0.0,
+    "hep_known": 9.6,
+    "ici_missing": 17.1,
+    "ici_known": 15.6
+   },
+   "country": {
+    "n_missing": 10,
+    "pct_missing": 0.9,
+    "hep_missing": 0.0,
+    "hep_known": 9.1,
+    "ici_missing": 30.0,
+    "ici_known": 15.6
+   },
+   "reporter": {
+    "n_missing": 34,
+    "pct_missing": 3.2,
+    "hep_missing": 5.9,
+    "hep_known": 9.1,
+    "ici_missing": 29.4,
+    "ici_known": 15.3
+   },
+   "indication": {
+    "n_missing": 0,
+    "pct_missing": 0.0,
+    "hep_missing": null,
+    "hep_known": 9.0,
+    "ici_missing": null,
+    "ici_known": 15.7
+   },
+   "any_missing_age_sex_country_reporter": 12.8,
+   "by_report_type_age_missing_pct": {
+    "DIR": 7.7,
+    "EXP": 8.8,
+    "PER": 5.8
+   }
+  }
+ },
+ "kras_pt": {
+  "any": 404,
+  "by_drug": {
+   "sotorasib": 402,
+   "adagrasib": 2
+  },
+  "as_only_tumor_info": 361,
+  "only_by_drug": {
+   "sotorasib": 360,
+   "adagrasib": 1
+  },
+  "with_nsclc": 29,
+  "with_crc": 14,
+  "only_hep": 93,
+  "only_ici": 15,
+  "only_ici_hep": 5,
+  "only_country_top": {
+   "JP": 238,
+   "US": 55,
+   "AT": 13,
+   "FR": 9,
+   "DE": 8
+  },
+  "unknown_total": 1753
+ },
+ "kras_sensitivity": {
+  "exclude_kras_only": {
+   "sotorasib": {
+    "n": 3155,
+    "ici": "24/64",
+    "noici": "541/3091",
+    "crude": [
+     2.83,
+     1.69,
+     4.73
+    ],
+    "nsclc": {
+     "n": 1875,
+     "ici": "20/55",
+     "noici": "409/1820",
+     "adj": [
+      1.5,
+      0.84,
+      2.69,
+      0.1684
+     ]
+    },
+    "ratio_vs_docetaxel": [
+     1.32,
+     0.59,
+     2.97,
+     0.5027,
+     0.5015
+    ]
+   },
+   "adagrasib": {
+    "n": 983,
+    "ici": "6/21",
+    "noici": "37/962",
+    "crude": [
+     10.0,
+     3.67,
+     27.24
+    ],
+    "nsclc": {
+     "n": 577,
+     "ici": "6/19",
+     "noici": "30/558",
+     "adj": [
+      6.59,
+      1.87,
+      23.28,
+      0.0034
+     ]
+    },
+    "ratio_vs_docetaxel": [
+     5.02,
+     1.4,
+     17.94,
+     0.0131,
+     0.0169
+    ]
+   },
+   "interaction_adjusted": [
+    5.35,
+    1.67,
+    17.18,
+    0.0048,
+    0.0083
+   ]
+  },
+  "reclassify_kras_only_as_nsclc": {
+   "sotorasib": {
+    "n": 3515,
+    "ici": "29/79",
+    "noici": "628/3436",
+    "crude": [
+     2.59,
+     1.63,
+     4.13
+    ],
+    "nsclc": {
+     "n": 2235,
+     "ici": "25/70",
+     "noici": "496/2165",
+     "adj": [
+      1.43,
+      0.86,
+      2.39,
+      0.1692
+     ]
+    },
+    "ratio_vs_docetaxel": [
+     1.28,
+     0.59,
+     2.75,
+     0.5308,
+     0.5291
+    ]
+   },
+   "adagrasib": {
+    "n": 984,
+    "ici": "6/21",
+    "noici": "38/963",
+    "crude": [
+     9.74,
+     3.58,
+     26.49
+    ],
+    "nsclc": {
+     "n": 578,
+     "ici": "6/19",
+     "noici": "31/559",
+     "adj": [
+      6.44,
+      1.83,
+      22.66,
+      0.0037
+     ]
+    },
+    "ratio_vs_docetaxel": [
+     4.85,
+     1.36,
+     17.25,
+     0.0148,
+     0.019
+    ]
+   },
+   "interaction_adjusted": [
+    5.5,
+    1.76,
+    17.22,
+    0.0034,
+    0.0065
+   ]
+  }
+ },
+ "firth_validation": {
+  "saturated_firth_interaction": 3.861869,
+  "closed_form_plus_half": 3.861869,
+  "max_abs_fd_gradient_at_firth_solution": 2.2737367544323206e-07,
+  "n_parameters": 20,
+  "all_perturbations_lower": true,
+  "ml_single_binary_vs_closed": [
+   2.593376,
+   2.593376
+  ]
+ },
+ "docetaxel_any_check_PS_n": 11502,
+ "docetaxel_matching_role": {
+  "suspect_interacting": {
+   "docetaxel_nsclc": {
+    "n": 2133,
+    "ici": "70/718",
+    "noici": "126/1415",
+    "crude": [
+     1.11,
+     0.81,
+     1.5
+    ],
+    "adj": [
+     1.18,
+     0.85,
+     1.64,
+     0.3286
+    ]
+   },
+   "sotorasib_ratio_vs_docetaxel_same_role": [
+    2.09,
+    1.24,
+    3.51,
+    0.0057,
+    0.0058
+   ],
+   "adagrasib_ratio_vs_docetaxel_same_role": [
+    3.14,
+    1.36,
+    7.28,
+    0.0076,
+    0.0092
+   ]
+  },
+  "any_role": {
+   "docetaxel_nsclc": {
+    "n": 2393,
+    "ici": "83/819",
+    "noici": "135/1574",
+    "crude": [
+     1.2,
+     0.9,
+     1.6
+    ],
+    "adj": [
+     1.33,
+     0.98,
+     1.81,
+     0.0714
+    ]
+   },
+   "sotorasib_ratio_vs_docetaxel_same_role": [
+    1.9,
+    1.16,
+    3.13,
+    0.0112,
+    0.0114
+   ],
+   "adagrasib_ratio_vs_docetaxel_same_role": [
+    2.68,
+    1.17,
+    6.11,
+    0.0193,
+    0.0223
+   ]
+  }
+ },
+ "recoded_soto_vs_ada": {
+  "noici": [
+   5.35,
+   3.72,
+   7.71,
+   0.0
+  ],
+  "ici": [
+   0.95,
+   0.32,
+   2.83,
+   0.924
+  ]
+ }
+}

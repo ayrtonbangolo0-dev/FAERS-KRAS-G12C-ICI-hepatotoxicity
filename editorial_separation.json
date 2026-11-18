@@ -1,0 +1,71 @@
+{
+ "adagrasib_nsclc": {
+  "zero_event_levels": {
+   "occp_miss": "0/14",
+   "y2026": "0/54"
+  },
+  "ml": [
+   6.59,
+   1.87,
+   23.28,
+   0.0034
+  ],
+  "firth": [
+   5.79,
+   1.73,
+   19.4,
+   0.0045
+  ]
+ },
+ "docetaxel_nsclc": {
+  "zero_event_levels": {
+   "rept_dir": "0/13",
+   "consumer": "0/18",
+   "age_miss": "0/92",
+   "sex_miss": "0/70"
+  },
+  "ml": [
+   1.22,
+   0.68,
+   2.21,
+   0.5016
+  ],
+  "firth": [
+   1.24,
+   0.7,
+   2.19,
+   0.4576
+  ]
+ },
+ "sotorasib_nsclc": {
+  "zero_event_levels": {},
+  "ml": [
+   1.5,
+   0.84,
+   2.69,
+   0.1684
+  ],
+  "firth": [
+   1.51,
+   0.85,
+   2.7,
+   0.1611
+  ]
+ },
+ "pooled_sotorasib_firth": [
+  1.3,
+  0.58,
+  2.91,
+  0.5214,
+  0.1375
+ ],
+ "pooled_sotorasib_zero_event_levels": {},
+ "pooled_adagrasib_firth": [
+  4.81,
+  1.37,
+  16.87,
+  0.0141,
+  0.0114
+ ],
+ "pooled_adagrasib_zero_event_levels": {}
+}

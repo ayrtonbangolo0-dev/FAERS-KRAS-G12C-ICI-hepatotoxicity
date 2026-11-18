@@ -1,0 +1,251 @@
+{
+ "interval_classes_all": {
+  "adagrasib | ICI ongoing (no stop date) at KRAS G12C inhibitor start": 2,
+  "adagrasib | documented overlap before the event": 6,
+  "adagrasib | insufficient dates": 7,
+  "adagrasib | sequential: ICI ended before KRAS G12C inhibitor start": 6,
+  "sotorasib | ICI ongoing (no stop date) at KRAS G12C inhibitor start": 10,
+  "sotorasib | ICI started after the event": 2,
+  "sotorasib | ICI stop on/after KRAS start, ICI start missing": 1,
+  "sotorasib | documented overlap before the event": 2,
+  "sotorasib | insufficient dates": 51,
+  "sotorasib | sequential: ICI ended before KRAS G12C inhibitor start": 13
+ },
+ "interval_classes_hep": {
+  "adagrasib | ICI ongoing (no stop date) at KRAS G12C inhibitor start": 1,
+  "adagrasib | documented overlap before the event": 3,
+  "adagrasib | sequential: ICI ended before KRAS G12C inhibitor start": 2,
+  "sotorasib | ICI ongoing (no stop date) at KRAS G12C inhibitor start": 4,
+  "sotorasib | insufficient dates": 18,
+  "sotorasib | sequential: ICI ended before KRAS G12C inhibitor start": 7
+ },
+ "ada_hep_cases": [
+  {
+   "primaryid": "217631681",
+   "drug": "adagrasib",
+   "hepato": true,
+   "ici": "pembrolizumab:SS",
+   "ici_start": "2022-11-08 00:00:00",
+   "ici_end": "2022-11-08 00:00:00",
+   "kras_start": "2022-11-08 00:00:00",
+   "event": "2022-12-06 00:00:00",
+   "ici_end_to_kras_start": 0.0,
+   "kras_start_to_event": 28.0,
+   "cls": "documented overlap before the event",
+   "hep_pts": [
+    "Blood alkaline phosphatase increased",
+    "Gamma-glutamyltransferase increased",
+    "Hepatotoxicity"
+   ],
+   "narrow": true,
+   "n_pts": 3,
+   "country": "PL",
+   "rept": "EXP",
+   "year": "2022",
+   "LT": false,
+   "HO": false,
+   "DE": false,
+   "tumor": "NSCLC"
+  },
+  {
+   "primaryid": "218232641",
+   "drug": "adagrasib",
+   "hepato": true,
+   "ici": "pembrolizumab:SS",
+   "ici_start": "2022-11-01 00:00:00",
+   "ici_end": "2022-11-01 00:00:00",
+   "kras_start": "2022-11-01 00:00:00",
+   "event": "2022-11-29 00:00:00",
+   "ici_end_to_kras_start": 0.0,
+   "kras_start_to_event": 28.0,
+   "cls": "documented overlap before the event",
+   "hep_pts": [
+    "Hepatic function abnormal"
+   ],
+   "narrow": false,
+   "n_pts": 1,
+   "country": "CN",
+   "rept": "EXP",
+   "year": "2023",
+   "LT": false,
+   "HO": true,
+   "DE": false,
+   "tumor": "NSCLC"
+  },
+  {
+   "primaryid": "220550802",
+   "drug": "adagrasib",
+   "hepato": true,
+   "ici": "pembrolizumab:SS",
+   "ici_start": "2023-01-10 00:00:00",
+   "ici_end": "2023-01-31 00:00:00",
+   "kras_start": "2023-01-10 00:00:00",
+   "event": "2023-02-07 00:00:00",
+   "ici_end_to_kras_start": -21.0,
+   "kras_start_to_event": 28.0,
+   "cls": "documented overlap before the event",
+   "hep_pts": [
+    "Gamma-glutamyltransferase increased",
+    "Hypertransaminasaemia"
+   ],
+   "narrow": false,
+   "n_pts": 4,
+   "country": "IT",
+   "rept": "EXP",
+   "year": "2023",
+   "LT": false,
+   "HO": true,
+   "DE": false,
+   "tumor": "NSCLC"
+  },
+  {
+   "primaryid": "230649995",
+   "drug": "adagrasib",
+   "hepato": true,
+   "ici": "pembrolizumab:SS",
+   "ici_start": "2022-08-03 00:00:00",
+   "ici_end": "2023-06-29 00:00:00",
+   "kras_start": "2023-09-01 00:00:00",
+   "event": "2023-09-02 00:00:00",
+   "ici_end_to_kras_start": 64.0,
+   "kras_start_to_event": 1.0,
+   "cls": "sequential: ICI ended before KRAS G12C inhibitor start",
+   "hep_pts": [
+    "Mixed liver injury"
+   ],
+   "narrow": true,
+   "n_pts": 7,
+   "country": "FR",
+   "rept": "EXP",
+   "year": "2024",
+   "LT": true,
+   "HO": true,
+   "DE": true,
+   "tumor": "NSCLC"
+  },
+  {
+   "primaryid": "240826762",
+   "drug": "adagrasib",
+   "hepato": true,
+   "ici": "pembrolizumab:SS",
+   "ici_start": "2022-06-15 00:00:00",
+   "ici_end": "NaT",
+   "kras_start": "2024-05-15 00:00:00",
+   "event": "2024-05-27 00:00:00",
+   "ici_end_to_kras_start": NaN,
+   "kras_start_to_event": 12.0,
+   "cls": "ICI ongoing (no stop date) at KRAS G12C inhibitor start",
+   "hep_pts": [
+    "Cholestasis"
+   ],
+   "narrow": false,
+   "n_pts": 12,
+   "country": "FR",
+   "rept": "EXP",
+   "year": "2024",
+   "LT": true,
+   "HO": true,
+   "DE": false,
+   "tumor": "NSCLC"
+  },
+  {
+   "primaryid": "251896861",
+   "drug": "adagrasib",
+   "hepato": true,
+   "ici": "nivolumab:C;ipilimumab:C",
+   "ici_start": "2024-10-21 00:00:00",
+   "ici_end": "2025-03-14 00:00:00",
+   "kras_start": "2025-03-20 00:00:00",
+   "event": "2025-04-08 00:00:00",
+   "ici_end_to_kras_start": 6.0,
+   "kras_start_to_event": 19.0,
+   "cls": "sequential: ICI ended before KRAS G12C inhibitor start",
+   "hep_pts": [
+    "Alanine aminotransferase increased",
+    "Aspartate aminotransferase increased",
+    "Blood alkaline phosphatase increased",
+    "Blood bilirubin increased"
+   ],
+   "narrow": false,
+   "n_pts": 4,
+   "country": "",
+   "rept": "DIR",
+   "year": "2025",
+   "LT": true,
+   "HO": true,
+   "DE": false,
+   "tumor": "NSCLC"
+  }
+ ],
+ "soto_hep_n_multi_pt": 22,
+ "tto_sotorasib_all": {
+  "evaluable": 269,
+  "hep": 657,
+  "within60": 216
+ },
+ "tto_sotorasib_noici": {
+  "evaluable": 250,
+  "hep": 628,
+  "within60": 199
+ },
+ "tto_sotorasib_ici": {
+  "evaluable": 19,
+  "hep": 29,
+  "within60": 17
+ },
+ "tto_adagrasib_all": {
+  "evaluable": 29,
+  "hep": 44,
+  "within60": 26
+ },
+ "tto_adagrasib_noici": {
+  "evaluable": 23,
+  "hep": 38,
+  "within60": 20
+ },
+ "tto_adagrasib_ici": {
+  "evaluable": 6,
+  "hep": 6,
+  "within60": 6
+ },
+ "hep_reports_with_other_reactions_pct": 70.6,
+ "omega_ada_any": {
+  "obs": 16,
+  "n": 70,
+  "E": 8.71,
+  "omega": 0.8412,
+  "omega025": -0.001
+ },
+ "omega_ada_ps": {
+  "obs": 6,
+  "n": 21,
+  "E": 2.577,
+  "omega": 1.0789,
+  "omega025": -0.3362
+ },
+ "omega_soto_any": {
+  "obs": 69,
+  "n": 185,
+  "E": 44.591,
+  "omega": 0.6242,
+  "omega025": 0.2249
+ },
+ "omega_soto_ps": {
+  "obs": 29,
+  "n": 79,
+  "E": 19.254,
+  "omega": 0.5786,
+  "omega025": -0.0415
+ },
+ "adjusted_interaction_ada_over_soto": [
+  5.63,
+  1.79,
+  17.73,
+  0.0031
+ ],
+ "firth_interaction_ada_over_soto_from_rounded": [
+  5.88,
+  1.85,
+  16.67
+ ]
+}

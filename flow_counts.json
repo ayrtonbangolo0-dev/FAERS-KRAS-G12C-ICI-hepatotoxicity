@@ -1,0 +1,12 @@
+{
+  "raw_reports": 9375875,
+  "dedup_reports_database": 7979372,
+  "database_hepato_reports": 188270,
+  "cohort_PS": 4499,
+  "sotorasib": 3515,
+  "adagrasib": 984,
+  "ici_exposed": 100,
+  "crc": 177,
+  "with_tto": 1250,
+  "with_ici_interval": 43
+}

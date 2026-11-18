@@ -1,0 +1,680 @@
+{
+ "docetaxel_ps_n": 11502,
+ "docetaxel_indications": {
+  "Other": 9540,
+  "NSCLC": 1076,
+  "Unknown": 878,
+  "CRC": 8
+ },
+ "docetaxel_top_indication_pts": [
+  [
+   "breast cancer",
+   1765
+  ],
+  [
+   "product used for unknown indication",
+   1072
+  ],
+  [
+   "breast cancer female",
+   857
+  ],
+  [
+   "prostate cancer",
+   561
+  ],
+  [
+   "prostate cancer metastatic",
+   500
+  ],
+  [
+   "breast cancer metastatic",
+   500
+  ],
+  [
+   "invasive ductal breast carcinoma",
+   375
+  ],
+  [
+   "lung adenocarcinoma",
+   373
+  ],
+  [
+   "her2 positive breast cancer",
+   360
+  ],
+  [
+   "chemotherapy",
+   337
+  ],
+  [
+   "hormone-refractory prostate cancer",
+   291
+  ],
+  [
+   "non-small cell lung cancer",
+   257
+  ]
+ ],
+ "crude_ratio_soto_over_doce": [
+  0.86,
+  0.49,
+  1.49,
+  0.584
+ ],
+ "crude_ratio_ada_over_doce": [
+  3.22,
+  1.13,
+  9.14,
+  0.028
+ ],
+ "ici_or_by_drug": {
+  "docetaxel_NSCLC": {
+   "n": 1076,
+   "ici": "16/169",
+   "noici": "81/907",
+   "crude": [
+    1.07,
+    0.61,
+    1.87
+   ],
+   "adjusted": [
+    1.22,
+    0.68,
+    2.21,
+    0.5016
+   ]
+  },
+  "sotorasib_NSCLC": {
+   "n": 1875,
+   "ici": "20/55",
+   "noici": "409/1820",
+   "crude": [
+    1.97,
+    1.13,
+    3.45
+   ],
+   "adjusted": [
+    1.5,
+    0.84,
+    2.69,
+    0.1684
+   ]
+  },
+  "adagrasib_NSCLC": {
+   "n": 577,
+   "ici": "6/19",
+   "noici": "30/558",
+   "crude": [
+    8.12,
+    2.89,
+    22.87
+   ],
+   "adjusted": [
+    6.59,
+    1.87,
+    23.28,
+    0.0034
+   ]
+  },
+  "docetaxel_all": {
+   "n": 11502,
+   "ici": "55/559",
+   "noici": "381/10943",
+   "crude": [
+    3.03,
+    2.25,
+    4.07
+   ],
+   "adjusted": [
+    2.26,
+    1.65,
+    3.1,
+    0.0
+   ]
+  }
+ },
+ "pooled_sotorasib_vs_docetaxel_NSCLC": {
+  "n": 2951,
+  "interaction": [
+   1.32,
+   0.59,
+   2.97,
+   0.5027
+  ],
+  "lrt_p": 0.5015,
+  "ici_in_docetaxel": [
+   1.08,
+   0.61,
+   1.91,
+   0.7859
+  ],
+  "ici_in_kras": [
+   1.43,
+   0.8,
+   2.55,
+   0.2272
+  ]
+ },
+ "pooled_sotorasib_vs_docetaxel_all": {
+  "n": 15017,
+  "interaction": [
+   0.69,
+   0.39,
+   1.22,
+   0.2062
+  ],
+  "lrt_p": 0.2049,
+  "ici_in_docetaxel": [
+   2.5,
+   1.84,
+   3.4,
+   0.0
+  ],
+  "ici_in_kras": [
+   1.73,
+   1.07,
+   2.8,
+   0.0248
+  ]
+ },
+ "pooled_adagrasib_vs_docetaxel_NSCLC": {
+  "n": 1653,
+  "interaction": [
+   5.02,
+   1.4,
+   17.94,
+   0.0131
+  ],
+  "lrt_p": 0.0169,
+  "ici_in_docetaxel": [
+   1.09,
+   0.61,
+   1.94,
+   0.7766
+  ],
+  "ici_in_kras": [
+   5.46,
+   1.76,
+   16.92,
+   0.0033
+  ]
+ },
+ "pooled_adagrasib_vs_docetaxel_all": {
+  "n": 12486,
+  "interaction": [
+   1.96,
+   0.64,
+   5.98,
+   0.2379
+  ],
+  "lrt_p": 0.25,
+  "ici_in_docetaxel": [
+   2.23,
+   1.63,
+   3.06,
+   0.0
+  ],
+  "ici_in_kras": [
+   4.37,
+   1.49,
+   12.8,
+   0.0071
+  ]
+ },
+ "omega_ps_sotorasib": {
+  "n_both": 79,
+  "hep_both": 29,
+  "pct_both": 36.7,
+  "pct_drug_only": 18.3,
+  "pct_ici_only": 10.8,
+  "pct_neither": 2.14,
+  "expected": 19.3,
+  "omega": 0.58,
+  "omega025": -0.04
+ },
+ "omega_ps_adagrasib": {
+  "n_both": 21,
+  "hep_both": 6,
+  "pct_both": 28.6,
+  "pct_drug_only": 3.9,
+  "pct_ici_only": 10.8,
+  "pct_neither": 2.15,
+  "expected": 2.6,
+  "omega": 1.08,
+  "omega025": -0.34
+ },
+ "omega_ps_docetaxel": {
+  "n_both": 559,
+  "hep_both": 55,
+  "pct_both": 9.8,
+  "pct_drug_only": 3.5,
+  "pct_ici_only": 10.8,
+  "pct_neither": 2.14,
+  "expected": 66.7,
+  "omega": -0.28,
+  "omega025": -0.72
+ },
+ "firth": {
+  "crude_ml": {
+   "ici_in_adagrasib": [
+    9.74,
+    3.58,
+    26.49,
+    0.0
+   ],
+   "ici_in_sotorasib": [
+    2.59,
+    1.63,
+    4.13,
+    0.0001
+   ],
+   "interaction": [
+    0.27,
+    0.09,
+    0.8,
+    0.0188
+   ],
+   "lrt_p": 0.0272,
+   "soto_vs_ada_noici": [
+    5.44,
+    3.89,
+    7.62,
+    0.0
+   ],
+   "soto_vs_ada_ici": [
+    1.45,
+    0.51,
+    4.15,
+    0.4886
+   ]
+  },
+  "crude_firth": {
+   "ici_in_adagrasib": [
+    10.08,
+    3.74,
+    27.17,
+    0.0
+   ],
+   "ici_in_sotorasib": [
+    2.61,
+    1.64,
+    4.16,
+    0.0001
+   ],
+   "interaction": [
+    0.26,
+    0.09,
+    0.77,
+    0.0156
+   ],
+   "lrt_p": 0.0139,
+   "soto_vs_ada_noici": [
+    5.38,
+    3.85,
+    7.51,
+    0.0
+   ],
+   "soto_vs_ada_ici": [
+    1.39,
+    0.49,
+    3.95,
+    0.5333
+   ]
+  },
+  "adjusted_ml": {
+   "ici_in_adagrasib": [
+    9.47,
+    3.34,
+    26.82,
+    0.0
+   ],
+   "ici_in_sotorasib": [
+    1.68,
+    1.04,
+    2.72,
+    0.0338
+   ],
+   "interaction": [
+    0.18,
+    0.06,
+    0.56,
+    0.0031
+   ],
+   "lrt_p": 0.006,
+   "soto_vs_ada_noici": [
+    5.36,
+    3.72,
+    7.71,
+    0.0
+   ],
+   "soto_vs_ada_ici": [
+    0.95,
+    0.32,
+    2.84,
+    0.9285
+   ]
+  },
+  "adjusted_firth": {
+   "ici_in_adagrasib": [
+    9.68,
+    3.45,
+    27.13,
+    0.0
+   ],
+   "ici_in_sotorasib": [
+    1.69,
+    1.05,
+    2.73,
+    0.0321
+   ],
+   "interaction": [
+    0.17,
+    0.06,
+    0.54,
+    0.0026
+   ],
+   "lrt_p": 0.0033,
+   "soto_vs_ada_noici": [
+    5.27,
+    3.67,
+    7.55,
+    0.0
+   ],
+   "soto_vs_ada_ici": [
+    0.92,
+    0.31,
+    2.72,
+    0.8786
+   ]
+  }
+ },
+ "covariate_cells_ada_ici": {
+  "us": 8,
+  "rept_per": 2,
+  "rept_dir": 1,
+  "consumer": 7,
+  "occp_miss": 0,
+  "y2023": 7,
+  "y2024": 7,
+  "y2025": 4,
+  "y2026": 2,
+  "age65": 4,
+  "age_miss": 13,
+  "female": 7,
+  "sex_miss": 7,
+  "ind_crc": 2,
+  "ind_other": 0,
+  "ind_unk": 0
+ },
+ "coded_profile": {
+  "n": 343,
+  "hepato": 89,
+  "rept": {
+   "PER": 342,
+   "EXP": 1
+  },
+  "country": {
+   "FR": 110,
+   "US": 35,
+   "IT": 30,
+   "DE": 25,
+   "GB": 23,
+   "NL": 22,
+   "CH": 15,
+   "ES": 14
+  },
+  "year": {
+   "2021": 116,
+   "2022": 227
+  },
+  "occp": {
+   "MD": 310,
+   "HP": 22,
+   "PH": 10,
+   "CN": 1
+  },
+  "ici": 11,
+  "tumor": {
+   "NSCLC": 309,
+   "Other": 32,
+   "CRC": 2
+  },
+  "top_pts": [
+   [
+    "Non-small cell lung cancer",
+    130
+   ],
+   [
+    "Hepatic cytolysis",
+    47
+   ],
+   [
+    "Death",
+    29
+   ],
+   [
+    "Diarrhoea",
+    27
+   ],
+   [
+    "Cholestasis",
+    17
+   ],
+   [
+    "Dyspnoea",
+    9
+   ],
+   [
+    "Alanine aminotransferase increased",
+    8
+   ],
+   [
+    "Drug-induced liver injury",
+    6
+   ],
+   [
+    "Hypokalaemia",
+    6
+   ],
+   [
+    "Pulmonary embolism",
+    6
+   ]
+  ],
+  "top_hep_pts": [
+   [
+    "Hepatic cytolysis",
+    47
+   ],
+   [
+    "Cholestasis",
+    17
+   ],
+   [
+    "Alanine aminotransferase increased",
+    8
+   ],
+   [
+    "Drug-induced liver injury",
+    6
+   ],
+   [
+    "Liver function test abnormal",
+    4
+   ],
+   [
+    "Transaminases increased",
+    4
+   ],
+   [
+    "Hepatotoxicity",
+    4
+   ],
+   [
+    "Blood bilirubin increased",
+    4
+   ]
+  ]
+ },
+ "coded_by_drug": {
+  "sotorasib": 343
+ },
+ "brand_soto_profile": {
+  "n": 3172,
+  "hepato": 568,
+  "rept": {
+   "EXP": 1734,
+   "PER": 1145,
+   "DIR": 293
+  },
+  "country": {
+   "US": 1047,
+   "JP": 619,
+   "FR": 470,
+   "NR": 280,
+   "DE": 92,
+   "IT": 74,
+   "GB": 65,
+   "EU": 65
+  },
+  "year": {
+   "2021": 146,
+   "2022": 609,
+   "2023": 1197,
+   "2024": 518,
+   "2025": 347,
+   "2026": 355
+  },
+  "occp": {
+   "MD": 1669,
+   "HP": 495,
+   "CN": 490,
+   "PH": 297,
+   "NR": 221
+  },
+  "ici": 68,
+  "tumor": {
+   "NSCLC": 1566,
+   "Other": 1339,
+   "Unknown": 144,
+   "CRC": 112,
+   "Pancreatic": 11
+  },
+  "top_pts": [
+   [
+    "Non-small cell lung cancer",
+    507
+   ],
+   [
+    "Death",
+    393
+   ],
+   [
+    "Disease progression",
+    326
+   ],
+   [
+    "Diarrhoea",
+    301
+   ],
+   [
+    "Off label use",
+    230
+   ],
+   [
+    "Fatigue",
+    108
+   ],
+   [
+    "Nausea",
+    107
+   ],
+   [
+    "Hepatic function abnormal",
+    92
+   ],
+   [
+    "Hepatotoxicity",
+    91
+   ],
+   [
+    "Non-small cell lung cancer metastatic",
+    91
+   ]
+  ],
+  "top_hep_pts": [
+   [
+    "Hepatic function abnormal",
+    92
+   ],
+   [
+    "Hepatotoxicity",
+    91
+   ],
+   [
+    "Alanine aminotransferase increased",
+    73
+   ],
+   [
+    "Aspartate aminotransferase increased",
+    73
+   ],
+   [
+    "Hepatic enzyme increased",
+    47
+   ],
+   [
+    "Liver disorder",
+    46
+   ],
+   [
+    "Liver function test increased",
+    44
+   ],
+   [
+    "Hepatic cytolysis",
+    31
+   ]
+  ]
+ },
+ "coded_with_complete_keys": 236,
+ "duplicate_candidates": {
+  "pairs": 2,
+  "coded_reports": 2,
+  "coded_hepato": 2,
+  "examples": [
+   {
+    "coded": "205663101",
+    "brand": "226104731",
+    "coded_caseid": 20566310,
+    "brand_caseid": 22610473,
+    "hep_coded": true,
+    "hep_brand": true,
+    "n_shared": 1,
+    "age": [
+     "63.0",
+     "63.0"
+    ]
+   },
+   {
+    "coded": "207318234",
+    "brand": "226142972",
+    "coded_caseid": 20731823,
+    "brand_caseid": 22614297,
+    "hep_coded": true,
+    "hep_brand": true,
+    "n_shared": 1,
+    "age": [
+     "69.0",
+     "69.0"
+    ]
+   }
+  ]
+ },
+ "loose_duplicate_coded_reports": 13,
+ "coded_received_2023_on": 0,
+ "mrtx_rows_db": 1,
+ "mrtx_reports_kept": 1,
+ "mrtx_in_adagrasib_cohort": 0
+}
